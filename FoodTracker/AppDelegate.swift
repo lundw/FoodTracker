@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  FoodTracker
 //
-//  Created by Will  on 8/7/17.
+//  Created by Will on 8/7/17.
 //
 //
 
