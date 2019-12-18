@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE2186E723A3C9F7000FD82A /* defaultPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2186E223A3C9F7000FD82A /* defaultPhoto.png */; };
+		BE2186EA23A3C9F7000FD82A /* meal1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2186E623A3C9F7000FD82A /* meal1.png */; };
 		BE4F92551F3937F1001B538B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F92541F3937F1001B538B /* AppDelegate.swift */; };
 		BE4F92571F3937F1001B538B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F92561F3937F1001B538B /* ViewController.swift */; };
 		BE4F925A1F3937F1001B538B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4F92581F3937F1001B538B /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE2186E223A3C9F7000FD82A /* defaultPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultPhoto.png; sourceTree = "<group>"; };
+		BE2186E623A3C9F7000FD82A /* meal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meal1.png; sourceTree = "<group>"; };
 		BE4F92511F3937F1001B538B /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4F92541F3937F1001B538B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE4F92561F3937F1001B538B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				BE4F92561F3937F1001B538B /* ViewController.swift */,
 				BE4F92581F3937F1001B538B /* Main.storyboard */,
 				BE4F925B1F3937F1001B538B /* Assets.xcassets */,
+				BE2186E223A3C9F7000FD82A /* defaultPhoto.png */,
+				BE2186E623A3C9F7000FD82A /* meal1.png */,
 				BE4F925D1F3937F1001B538B /* LaunchScreen.storyboard */,
 				BE4F92601F3937F1001B538B /* Info.plist */,
 			);
@@ -146,10 +152,12 @@
 					BE4F92501F3937F1001B538B = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = P6LFU7E5MN;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					BE4F92641F3937F1001B538B = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BE4F92501F3937F1001B538B;
 					};
@@ -179,8 +187,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2186EA23A3C9F7000FD82A /* meal1.png in Resources */,
 				BE4F925F1F3937F1001B538B /* LaunchScreen.storyboard in Resources */,
 				BE4F925C1F3937F1001B538B /* Assets.xcassets in Resources */,
+				BE2186E723A3C9F7000FD82A /* defaultPhoto.png in Resources */,
 				BE4F925A1F3937F1001B538B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,7 +356,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -359,7 +370,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -372,7 +384,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
 			name = Debug;
@@ -386,7 +399,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
 			name = Release;
